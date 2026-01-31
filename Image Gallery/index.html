@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- FILTER BUTTONS -->
+  <div class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="nature">Nature</button>
+    <button data-filter="city">City</button>
+    <button data-filter="people">People</button>
+  </div>
+
+  <!-- GALLERY -->
+  <div class="gallery">
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1015/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 12 Jan 2026</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1011/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 03 May 2025</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item people">
+      <img src="https://picsum.photos/id/1005/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 10 Feb 2025</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1020/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 10 Feb 2025</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1031/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 18 Apr 2024</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item nature">
+      <img src=https://images.unsplash.com/photo-1768517296837-2457934c92fb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Photo">
+      <div class="gallery-info">
+        <span>📅 12 Jan 2026</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item people">
+      <img src="https://picsum.photos/id/1027/600/400" alt="">
+      <div class="gallery-info">
+        <span>📅 16 Mar 2023</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    <div class="gallery-item city">
+      <img src="https://images.unsplash.com/photo-1768321140160-a3ee91beb1c1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="City View">
+      <div class="gallery-info">
+        <span>📅 05 Oct 2025</span>
+        <span>📐 1920 × 1080</span>
+      </div>
+    </div>
+    <div class="gallery-item nature">
+      <img src="https://images.unsplash.com/photo-1768657659263-f85b92daf0ad?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nature Photo">
+      <div class="gallery-info">
+        <span>📅 15 Dec 2025</span>
+        <span>📐 2070 × 1380</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeBtn">✖</span>
+    <span class="nav prev" id="prevBtn">❮</span>
+    <img id="lightbox-img" alt="">
+    <span class="nav next" id="nextBtn">❯</span>
+  </div>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
